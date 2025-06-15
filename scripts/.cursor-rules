@@ -1,0 +1,20 @@
+# Scripts Configuration
+# Automation and maintenance tools for Lord-Ugah-AI-v6 expansion
+
+## Script Behavior
+- All scripts should be self-documenting and expansion-aware
+- Include error handling and user feedback for scaling operations
+- Maintain system integrity checks across unlimited Ugahbases
+- Log operations for debugging and growth pattern analysis
+
+## Expansion-Focused Scripts
+- ugahbase_creator.py: Generate new Ugahbases from templates
+- expansion_helper.py: Suggest connections and optimizations
+- cross_reference_mapper.py: Discover and validate inter-Ugahbase links
+- performance_monitor.py: Track system performance as it scales
+
+## Development Guidelines
+- Keep scripts modular and reusable across domains
+- Design for handling 500+ Ugahbases efficiently
+- Include type hints and docstrings for maintainability
+- Test scripts with large-scale scenarios 

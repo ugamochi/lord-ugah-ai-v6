@@ -1,0 +1,33 @@
+# Lord-Ugah-AI-v6 .gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+.env/
+env/
+.venv/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backups and logs
+*.log
+*.bak
+ugah-ai-backups/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# Node/npm (if ever used)
+node_modules/
+
+# Misc
+*.tmp 

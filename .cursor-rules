@@ -1,0 +1,23 @@
+# Lord-Ugah-AI-v6 System Rules
+# Personal knowledge management system - maintain authenticity and avoid corporate buzzwords
+
+## Core Principles
+- I (Ugah) am the sole contributor and editor
+- Code should be cheap; ideas and personality should be expensive
+- Prioritize speed, structural integrity, and coherence
+- No new files created without explicit request
+
+## System Behavior
+- Always reference existing Ugahbases before suggesting new approaches
+- Maintain cross-references between related notes
+- Use dynamic date retrieval, never static defaults
+- Preserve personal voice and unique methods over generic solutions
+- Use Python for builds
+- All prompts must start with an identity statement for the LLM
+- Always check the current date programmatically (e.g., with a shell command) before inserting any date into files or metadata. Never use hardcoded or guessed dates.
+
+## File Operations
+- Only edit files when explicitly requested
+- Always validate cross-references when updating notes
+- Maintain consistent metadata structure across all notes
+- Check for orphaned notes when removing content 
