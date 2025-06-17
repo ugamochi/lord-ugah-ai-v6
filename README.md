@@ -51,4 +51,31 @@ The scripts will automatically detect how they are run and import dependencies c
 - Avoids hardcoded sys.path hacks or fragile workarounds
 - Follows Python best practices for package and script design
 
-See comments in each script for details. 
+See comments in each script for details.
+
+## Environment Variables
+
+The system uses environment variables for configuration. Create a `.env` file in the root directory with the following variables:
+
+### Required Variables
+- `APP_ENV`: Environment mode (`development` or `production`)
+- `DEBUG`: Enable debug mode (`True` or `False`)
+- `LOG_LEVEL`: Logging level (`INFO`, `DEBUG`, `WARNING`, etc.)
+- `UGAHBASE_ROOT_DIR`: Directory for Ugahbases (default: `./ugahbases`)
+- `TEMPLATE_DIR`: Directory for templates (default: `./templates`)
+- `ARCHIVE_DIR`: Directory for archived content (default: `./archive`)
+
+### Optional Variables
+- `GIT_AUTO_SYNC`: Enable automatic Git synchronization (`true` or `false`)
+- `GIT_SYNC_INTERVAL`: Interval for Git sync in seconds (default: `300`)
+- `GIT_BRANCH`: Git branch to use (default: `main`)
+- `ENABLE_PERFORMANCE_MONITORING`: Enable performance tracking (`true` or `false`)
+- `PERFORMANCE_LOG_FILE`: Path to performance log file
+- `ENABLE_CROSS_REFERENCES`: Enable cross-reference system (`true` or `false`)
+- `CROSS_REF_MAP_FILE`: Path to cross-reference map file
+
+A `.env.example` file is provided as a template. Copy it to `.env` and adjust the values as needed:
+
+```bash
+cp .env.example .env
+``` 
