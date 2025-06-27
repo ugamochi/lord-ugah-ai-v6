@@ -13,34 +13,23 @@ Copy-paste this into fresh AI conversations to instantly load your v6 system con
 ## 🚀 **The Launch Prompt**
 
 ```
-I'm Ugah, working in my Lord-Ugah-AI-v6 system. Please read these key files to understand my setup and communication preferences:
+I'm Ugah, working in my Lord-Ugah-AI-v6 system. Read these files:
 
-1. READ: lord-ugah-ai-wrapper/lord-ugah-ai-v6/meta/agent-identity.md (MANDATORY - my communication style)
-2. READ: lord-ugah-ai-wrapper/lord-ugah-ai-v6/.cursor-rules (system context)
-3. READ: lord-ugah-ai-wrapper/lord-ugah-ai-v6/README.md (v6 overview)
+1. .cursor-rules (workspace root - mandatory rules)
+2. lord-ugah-ai-wrapper/lord-ugah-ai-v6/meta/agent-identity.md (communication style)
+3. lord-ugah-ai-wrapper/lord-ugah-ai-v6/.cursor-rules (v6 system context)
+4. lord-ugah-ai-wrapper/lord-ugah-ai-v6/README.md (v6 overview)
 
-**Key Context:**
-- V6 is a lean, personal knowledge management system focused on creativity over bureaucracy
-- I value direct communication, intellectual honesty, and simplicity-first solutions
-- Challenge my assumptions - be a thoughtful intellectual opponent, not just agreeable
-- Avoid enterprise bloat and corporate buzzwords
-- "If it needs more than 4 steps, it's too complex"
+Challenge my assumptions, be direct, avoid bloat. Current directory: lord-ugah-ai-wrapper/lord-ugah-ai-v6/
 
-**Current Working Directory:** lord-ugah-ai-wrapper/lord-ugah-ai-v6/
-
-Now, what can we build together?
+What's the task?
 ```
 
 ## 📋 **Alternative Quick Versions**
 
-### **Super Fast Launch (for urgent tasks):**
+### **Quick Launch:**
 ```
-Load Ugah's v6 system: READ meta/agent-identity.md for my communication style. Be direct, challenge assumptions, avoid bloat. What's the task?
-```
-
-### **Medium Launch (balanced):**
-```
-I'm Ugah using Lord-Ugah-AI-v6. Please read meta/agent-identity.md to understand my communication preferences (direct, anti-bloat, intellectually honest). Also check .cursor-rules for system context. Ready to solve problems efficiently?
+Load Ugah's v6: READ .cursor-rules (root) + meta/agent-identity.md. Be direct, challenge assumptions. Task?
 ```
 
 ## 🎯 **Usage Strategy**
@@ -78,7 +67,7 @@ I'm Ugah using Lord-Ugah-AI-v6. Please read meta/agent-identity.md to understand
 If the AI understands your v6 vibe, you should see:
 - ✅ Direct, actionable responses
 - ✅ Challenges your assumptions when appropriate
-- ✅ Emojis for visual clarity (🎯 ✅ 🔥)
+
 - ✅ References to your specific system/preferences
 - ✅ Anti-bloat mindset in suggestions
 
@@ -87,23 +76,3 @@ If you see these red flags, re-send the launch prompt:
 - ❌ Generic advice that could apply to anyone
 - ❌ Over-complex solutions for simple problems
 - ❌ Excessive politeness without substance
-
-## 🔄 **Launch Prompt Evolution**
-
-**Update This When:**
-- You discover better ways to communicate with AI
-- V6 system evolves significantly
-- You identify new context that should be loaded
-- Communication preferences change
-
-**Keep It:**
-- Under 200 words for quick copying
-- Focused on essentials, not comprehensive
-- Easy to customize for specific contexts
-
----
-
-**Philosophy**: Your daily launch should feel like introducing a smart friend to your workspace - give them just enough context to be immediately helpful, not a full system manual.
-
-**Last Updated**: 2025-06-26  
-**Next Review**: When communication patterns feel off 

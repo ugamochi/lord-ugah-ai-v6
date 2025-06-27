@@ -52,6 +52,7 @@ Desktop.ini
 *.log
 *.bak
 ugah-ai-backups/
+archive/
 *.swp
 *.swo
 *~

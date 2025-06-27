@@ -14,7 +14,7 @@ Quick checklists for common tasks. No overthinking.
 □ Run `python scripts/ugahbase_creator.py`  
 □ Enter name (kebab-case like `machine-learning`)  
 □ Edit the `.cursor-rules` file for domain-specific rules  
-□ Create your first note using the starter template  
+□ Create your first note in the new ugahbase  
 
 Done.
 

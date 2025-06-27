@@ -2,6 +2,8 @@
 
 **Personal knowledge amplifier** designed around how you actually think and work. Domain-based organization meets AI-friendly prompts.
 
+📝 **Articles about working on this project**: [pavelugamochi.substack.com](https://pavelugamochi.substack.com/)
+
 - **Domain-based thinking**: `webflow-development`, `music-production`, `vibe-coding` - each ugahbase matches how your brain works
 - **AI communication style**: Built-in `agent-identity.md` teaches AI to be direct, challenge assumptions, avoid corporate buzzwords
 - **High-quality prompts**: Structured prompts for consistent, professional AI outputs

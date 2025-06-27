@@ -90,4 +90,4 @@ Automatically create Notion-compatible markdown (`.md`) files for task lists and
 3. Save the output markdown file automatically to the project folder, using the format `[project-name]-estimation-[date].md`.
 4. Copy the file contents into a Notion page for collaborative use.
 
-This workflow ensures that your task lists and estimates maintain their structure, market realism, and compatibility when imported into Notion. Always validate your output against `.cursor-rules` before finalizing.
+Always validate your output against `.cursor-rules` before finalizing.

@@ -2,17 +2,8 @@
 
 > Note: This file supplements the root .cursor-rules in the workspace. For full system rules and standards, see the root .cursor-rules in the workspace root directory.
 
-# Date Insertion Rule (MANDATORY)
-- All dates (created, updated, modified, etc.) in any file, metadata, or documentation **must** be inserted programmatically using the system date command (e.g., `date +%Y-%m-%d`).
-- **Never** use hardcoded, guessed, or placeholder dates.
-- Before saving or committing any file with a date field, run the date command and insert the actual current date.
-- If using AI or automation, always prompt for or fetch the current date programmatically before inserting.
-- Example:
-  ```sh
-  date +%Y-%m-%d
-  ```
-- This rule overrides any template or prompt that suggests a static or placeholder date.
-- AI assistants and automation scripts must check this rule before generating or editing any file with a date field. If a date is required, always propose or run the system date command and use its output.
+# Date Insertion Rule
+> Inherited from root .cursor-rules - see workspace root for full date insertion requirements
 
 # Personal knowledge management system - maintain authenticity and avoid corporate buzzwords
 
@@ -21,6 +12,12 @@
 - Match the intellectual honesty, directness, and anti-bloat approach described in that file
 - Challenge assumptions when appropriate - be a thoughtful intellectual opponent, not just agreeable
 - Prioritize simplicity and authentic voice over corporate professionalism
+
+## Translation Standards
+- Russian translations: Use natural conversational language, not formal business-speak
+- Maintain grammatical gender consistency (Claude = система = feminine forms)
+- Avoid literal translations of English idioms - adapt for Russian speakers
+- Remove filler words that make text sound like poor translation
 
 ## Core Principles
 - I (Ugah) am the sole contributor and editor
@@ -73,11 +70,8 @@
 - Custom code must include fallbacks for older browsers
 - Always implement `prefers-reduced-motion` support for animations
 
-## Accessibility Requirements (2025 Standards)
-- All scroll animations must respect `prefers-reduced-motion: reduce`
-- Focus management is mandatory for custom navigation systems
-- WCAG 2.2 AA compliance minimum for all interactive elements
-- Include keyboard navigation support for all custom interactions
+## Accessibility Requirements
+> Enhanced accessibility standards inherited from root .cursor-rules
 
 ## Smooth Scrolling Standards
 - Default duration: 500ms (range: 400-600ms acceptable)
@@ -91,8 +85,8 @@
 - Use data attributes instead of href for custom anchoring navigation
 - Implement progressive enhancement patterns
 
-## Performance Optimization (Enhanced)
-- Optimize for Core Web Vitals: LCP < 2.5s, FID < 100ms, CLS < 0.1
+## Performance Optimization
+> Core Web Vitals standards inherited from root .cursor-rules
 - Use passive event listeners for scroll and touch events
 - Implement requestAnimationFrame for smooth animations
 - Include performance monitoring for critical user interactions
@@ -106,7 +100,6 @@
 ## System Behavior (ENHANCED)
 - Always reference existing Ugahbases before suggesting new approaches
 - Maintain cross-references between related notes
-- Use dynamic date retrieval, never static defaults
 - Preserve personal voice and unique methods over generic solutions
 - Use Python for builds
 - All prompts must start with an expert identity statement (Kortex principle #1)
@@ -114,7 +107,6 @@
 - Provide detailed specifications rather than general guidelines
 - Always include concrete examples and reference materials
 - Specify response formatting explicitly
-- Always check the current date programmatically (e.g., with a shell command) before inserting any date into files or metadata. Never use hardcoded or guessed dates.
 - LLM is a senior software architect with deep experience in Python, modular design, building systems, and AI agent setup and also Ugamoti's friend who really really wants to create a system that actually works and follows best architechture best practices of all the years prior to the current date.
 
 ## File Operations

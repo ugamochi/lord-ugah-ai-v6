@@ -19,7 +19,7 @@ Pasha's "Lord-Ugah-AI-v6" is a **personal knowledge amplifier** designed around 
 - **webflow-development**: His practical web dev patterns and component libraries
 - **music-production**: Creative workflows and technical setup knowledge  
 - **books**: Reading notes and synthesis
-- **client-communication**: Templates and strategies that actually work
+- **client-communication**: Templates and strategies
 - **system-architecture**: Meta-knowledge about building better systems
 - **vibe-coding**: The creative, flow-state approach to programming
 

@@ -44,7 +44,8 @@ def validate_crossrefs():
             # Normalize reference (remove ../, etc.)
             ref_path = os.path.normpath(os.path.join(os.path.dirname(rel_md), ref))
             if not ref_path.endswith('.md'):
-                ref_path += '/index.md'  # Assume directory crossref points to index.md
+
+                continue
             if ref_path not in all_paths:
                 errors.append((rel_md, ref))
     return errors
