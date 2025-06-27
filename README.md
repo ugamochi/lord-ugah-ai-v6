@@ -1,40 +1,25 @@
 # Lord-Ugah-AI-v6
 
-Personal knowledge management system for Ugah. Domain-based organization with AI-friendly rules.
+**Personal knowledge amplifier** designed around how you actually think and work. Domain-based organization meets AI-friendly prompts.
 
-## Quick Start
+- **Domain-based thinking**: `webflow-development`, `music-production`, `vibe-coding` - each ugahbase matches how your brain works
+- **AI communication style**: Built-in `agent-identity.md` teaches AI to be direct, challenge assumptions, avoid corporate buzzwords
+- **High-quality prompts**: Structured prompts for consistent, professional AI outputs
 
-1. **Create New Ugahbase**: `python scripts/ugahbase_creator.py`
-2. **Add Notes**: Use `templates/note-template.md`, place in appropriate ugahbase
-3. **Cross-Reference**: Use `crossrefs` field in YAML frontmatter
-4. **Validate Links**: `python scripts/link_validator.py`
-5. **Update System**: `python scripts/meta_updater.py`
+### **Daily Launch**
+Copy-paste from `meta/daily-launch-prompt.md` into fresh AI conversations to instantly load your v6 context and communication style.
 
-## Current Ugahbases
-- `books` - References and learning resources
-- `client-communication` - Client interaction patterns
-- `music-production` - Audio creation and tools
-- `system-architecture` - Technical design patterns
-- `vibe-coding` - Development workflows and tools
-- `webflow-development` - Webflow/web development expertise
+### **Access Knowledge**
+- Browse `ugahbases/` for domain-specific knowledge
+- Each ugahbase has `.cursor-rules` for AI behavior in that context
+- Cross-references connect related knowledge across domains
 
-## Running Scripts
+### **Create Content**
+- Use prompts from any ugahbase for high-quality outputs
+- Reference `templates/` for new prompts or notes
+- Keep things simple and practical
 
-Simple. Run them from the project root:
-
-```bash
-cd lord-ugah-ai-v6
-python scripts/ugahbase_creator.py
-python scripts/link_validator.py
-python scripts/meta_updater.py
-```
-
-That's it.
-
-## Configuration (Optional)
-
-Simple `.env` file for customization:
-- `UGAHBASE_ROOT_DIR` - Custom ugahbase location (default: `./ugahbases`)
-- `DEBUG` - Enable debug output (`true`/`false`)
-
-Scripts work fine with defaults. Only configure if you need custom paths. 
+### **Expand System**
+- Run `python3 scripts/ugahbase_creator.py` for new domains
+- Check links with `python3 scripts/link_validator.py`
+- Everything else is manual and intentional
