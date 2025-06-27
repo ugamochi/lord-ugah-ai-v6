@@ -1,9 +1,8 @@
 # Ugahbase Registry
 
-- books (created 2025-06-15 21:05:44)
-- client-communication (created {{CURRENT_DATE}})
-- first-steps (created {{CURRENT_DATE}})
-- music-production (created {{CURRENT_DATE}})
-- react-debugging (created {{CURRENT_DATE}})
-- system-architecture (created {{CURRENT_DATE}})
-- vibe-coding (created {{CURRENT_DATE}})
+- books (created 2025-06-15)
+- client-communication (created 2025-06-25)
+- music-production (created 2025-06-25)
+- system-architecture (created 2025-06-25)
+- vibe-coding (created 2025-06-25)
+- webflow-development (created 2025-06-25)

@@ -1,0 +1,13 @@
+---
+title: "Midjourney Prompts for Article Illustrations"
+created_date: 2025-06-26
+tags: [midjourney, illustrations, article-assets]
+---
+
+A cute anthropomorphic notebook character wearing an oversized business suit and tie, looking overwhelmed and ridiculous. Surrounded by floating holographic enterprise dashboards, analytics charts, monitoring screens with neon blue glows. Ultra-smooth 3D render style, corporate tech startup aesthetic, gradient backgrounds from blue to purple, lens flares, floating geometric shapes, over-polished professional look, holographic elements, neon accents, sci-fi corporate presentation style --ar 1:1 --style raw --v 6
+
+Split-screen comparison showing software system complexity. LEFT: chaotic tangle of 3D geometric blocks and connecting lines labeled "monitoring", "analytics", "testing", dark red gradients, warning symbols, complexity overload. RIGHT: elegant floating hexagonal nodes in clean formation, soft blue gradients, gentle glowing connections, minimalist 3D render. Ultra-smooth 3D render style, corporate tech startup aesthetic, gradient backgrounds from blue to purple, lens flares, floating geometric shapes, over-polished professional look, holographic elements, neon accents, sci-fi corporate presentation style --ar 16:9 --style raw --v 6
+
+Futuristic timeline visualization showing software evolution from v1 to v6. Each version as floating 3D block towers getting taller then shorter, with holographic labels floating above. Starts simple (blue), gets chaotic (red/orange gradients), returns to clean (blue). Ultra-smooth 3D render style, corporate tech startup aesthetic, gradient backgrounds from blue to purple, lens flares, floating geometric shapes, over-polished professional look, holographic elements, neon accents, sci-fi corporate presentation style --ar 16:9 --style raw --v 6
+
+An AI entity represented as a geometric crystalline figure made of interconnected neural network patterns, sitting at a futuristic holographic writing desk with floating code fragments and text particles around it. The AI has a subtle glow and appears to be contemplating or analyzing data streams. Pattern-recognition symbols and algorithmic visualizations float in the background. Ultra-smooth 3D render style, corporate tech startup aesthetic, gradient backgrounds from blue to purple, lens flares, floating geometric shapes, over-polished professional look, holographic elements, neon accents, sci-fi corporate presentation style --ar 1:1 --style raw --v 6 

@@ -1,2 +1,17 @@
-# Ugahbase Template Rules
-# Use this as a starting point for new Ugahbases. Customize as needed for the domain. 
+# Books Ugahbase
+# Learning resources, references, and knowledge sources
+
+## Content Focus
+- Book notes and summaries
+- Online learning resources and monitoring
+- Reference material and documentation links
+
+## Domain-Specific Standards
+- Include author, publication date, and key concepts in book notes
+- Maintain reading lists and progress tracking
+- Link to practical applications in other ugahbases
+
+## Cross-References
+- Reference system-architecture for technical books
+- Connect to vibe-coding for development resources
+- Link to webflow-development for web-specific references 

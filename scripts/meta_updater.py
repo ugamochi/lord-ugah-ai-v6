@@ -9,11 +9,7 @@ This script automates updates to meta/ugahbase-registry.md and meta/expansion-lo
 import os
 import re
 import subprocess
-# Dual import pattern: allows running as a module or as a script
-try:
-    from .utils import get_current_datetime  # module import
-except ImportError:
-    from utils import get_current_datetime   # script import
+from utils import get_current_datetime
 from datetime import datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

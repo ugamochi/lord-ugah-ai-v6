@@ -1,81 +1,40 @@
 # Lord-Ugah-AI-v6
 
-Personal knowledge management system scaffold. See v6-build.md for full architecture, rules, and expansion philosophy.
+Personal knowledge management system for Ugah. Domain-based organization with AI-friendly rules.
 
-## How to Use
+## Quick Start
 
-1. **Initialize the System**
-   - Run `scripts/initialize.py` to ensure all folders are present.
+1. **Create New Ugahbase**: `python scripts/ugahbase_creator.py`
+2. **Add Notes**: Use `templates/note-template.md`, place in appropriate ugahbase
+3. **Cross-Reference**: Use `crossrefs` field in YAML frontmatter
+4. **Validate Links**: `python scripts/link_validator.py`
+5. **Update System**: `python scripts/meta_updater.py`
 
-2. **Create a New Ugahbase**
-   - Run `scripts/ugahbase_creator.py` and follow the prompt.
-   - New Ugahbases are generated from the template and registered automatically.
+## Current Ugahbases
+- `books` - References and learning resources
+- `client-communication` - Client interaction patterns
+- `music-production` - Audio creation and tools
+- `system-architecture` - Technical design patterns
+- `vibe-coding` - Development workflows and tools
+- `webflow-development` - Webflow/web development expertise
 
-3. **Add Notes**
-   - Use `templates/note-template.md` as a starting point for new notes.
-   - Place notes in the appropriate Ugahbase folder.
+## Running Scripts
 
-4. **Cross-Reference Notes**
-   - Use the `crossrefs` field in YAML frontmatter to link related notes/Ugahbases.
-   - See `meta/cross-reference-map.md` for guidelines.
-
-5. **Validate and Expand**
-   - Run `scripts/link_validator.py` to check for missing or broken cross-references.
-   - Run `scripts/expansion_helper.py` for suggestions on new Ugahbases and connections.
-
-6. **Meta-System**
-   - The `meta/` folder tracks Ugahbase registry, expansion log, and cross-reference map.
-
-For more, see the full system prompt in `v6-build.md`.
-
-## Running Scripts: Best Practice
-
-All scripts in `scripts/` use a dual import pattern for maximum flexibility and maintainability. You can run them in two ways:
-
-**Recommended (Best Practice):**
-
-    python -m lord-ugah-ai-v6.scripts.ugahbase_creator
-    python -m lord-ugah-ai-v6.scripts.link_validator
-
-This treats `scripts/` as a proper Python package and avoids import errors.
-
-**Alternative (for quick testing):**
-
-    python lord-ugah-ai-v6/scripts/ugahbase_creator.py
-    python lord-ugah-ai-v6/scripts/link_validator.py
-
-The scripts will automatically detect how they are run and import dependencies correctly.
-
-**Why this pattern?**
-- Ensures scripts are modular, maintainable, and testable
-- Avoids hardcoded sys.path hacks or fragile workarounds
-- Follows Python best practices for package and script design
-
-See comments in each script for details.
-
-## Environment Variables
-
-The system uses environment variables for configuration. Create a `.env` file in the root directory with the following variables:
-
-### Required Variables
-- `APP_ENV`: Environment mode (`development` or `production`)
-- `DEBUG`: Enable debug mode (`True` or `False`)
-- `LOG_LEVEL`: Logging level (`INFO`, `DEBUG`, `WARNING`, etc.)
-- `UGAHBASE_ROOT_DIR`: Directory for Ugahbases (default: `./ugahbases`)
-- `TEMPLATE_DIR`: Directory for templates (default: `./templates`)
-- `ARCHIVE_DIR`: Directory for archived content (default: `./archive`)
-
-### Optional Variables
-- `GIT_AUTO_SYNC`: Enable automatic Git synchronization (`true` or `false`)
-- `GIT_SYNC_INTERVAL`: Interval for Git sync in seconds (default: `300`)
-- `GIT_BRANCH`: Git branch to use (default: `main`)
-- `ENABLE_PERFORMANCE_MONITORING`: Enable performance tracking (`true` or `false`)
-- `PERFORMANCE_LOG_FILE`: Path to performance log file
-- `ENABLE_CROSS_REFERENCES`: Enable cross-reference system (`true` or `false`)
-- `CROSS_REF_MAP_FILE`: Path to cross-reference map file
-
-A `.env.example` file is provided as a template. Copy it to `.env` and adjust the values as needed:
+Simple. Run them from the project root:
 
 ```bash
-cp .env.example .env
-``` 
+cd lord-ugah-ai-v6
+python scripts/ugahbase_creator.py
+python scripts/link_validator.py
+python scripts/meta_updater.py
+```
+
+That's it.
+
+## Configuration (Optional)
+
+Simple `.env` file for customization:
+- `UGAHBASE_ROOT_DIR` - Custom ugahbase location (default: `./ugahbases`)
+- `DEBUG` - Enable debug output (`true`/`false`)
+
+Scripts work fine with defaults. Only configure if you need custom paths. 

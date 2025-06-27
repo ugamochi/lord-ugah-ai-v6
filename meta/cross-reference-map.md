@@ -2,23 +2,20 @@
 
 | Source Note | Cross-References |
 |---|---|
-| system-architecture/scalability-notes.md | ../vibe-coding, ../music-production |
 | system-architecture/index.md | ../react-debugging, ../client-communication, ../vibe-coding |
-| system-architecture/design-patterns.md | ../react-debugging, ../client-communication |
 | music-production/mixing-techniques.md | ../vibe-coding, ../client-communication |
 | music-production/index.md | ../vibe-coding, ../system-architecture |
 | music-production/chord-progressions.md | ../vibe-coding, ../system-architecture |
-| react-debugging/common-errors.md | ../system-architecture, ../client-communication |
-| react-debugging/index.md | ../vibe-coding, ../system-architecture, ../client-communication |
-| react-debugging/performance-tips.md | ../vibe-coding, ../system-architecture |
-| first-steps/welcome.md | index.md |
-| first-steps/index.md | ../../ONBOARDING.md, ../../CHANGELOG.md, ../../README.md |
-| client-communication/cost-estimation.md | ../system-architecture, ../react-debugging |
+| webflow-development/index.md | system-architecture, vibe-coding, react-debugging |
+| webflow-development/core/webflow-custom-js-optimizer.md | system-architecture, react-debugging, vibe-coding |
+| webflow-development/core/gsap-animation-2025.md | smooth-scroll-2025, webflow-custom-js-optimizer, css-injection-pattern |
+| webflow-development/patterns/webflow-toc-generator.md | smooth-scroll-2025, css-injection-pattern, data-attribute-navigation |
+| webflow-development/patterns/css-injection-pattern.md | webflow-toc-generator, smooth-scroll-2025, webflow-custom-js-optimizer |
+| webflow-development/patterns/smooth-scroll-2025.md | webflow-toc-generator, data-attribute-navigation, system-architecture |
+| webflow-development/patterns/data-attribute-navigation.md | webflow-toc-generator, smooth-scroll-2025, css-injection-pattern |
 | client-communication/index.md | ../system-architecture, ../react-debugging |
 | client-communication/project-templates.md | ../system-architecture, ../music-production |
-| vibe-coding/quick-prototypes.md | ../react-debugging, ../music-production |
 | vibe-coding/index.md | ../react-debugging, ../music-production |
-| vibe-coding/inspiration-board.md | ../music-production, ../react-debugging |
 
 ---
 

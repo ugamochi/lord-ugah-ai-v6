@@ -9,6 +9,8 @@ project: ""
 status: active
 ---
 
+> **Rule:** All prompts must check for a .cursor-rules file in their own folder and all parent folders up to root, and must follow all applicable rules found. This is obligatory for both existing and future prompts.
+
 # Mixing Techniques
 
 Best practices and creative approaches for mixing music. See vibe-coding for creative process and client-communication for project delivery tips. 

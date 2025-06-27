@@ -1,2 +1,17 @@
-# Ugahbase Template Rules
-# Use this as a starting point for new Ugahbases. Customize as needed for the domain. 
+# {{UGAHBASE_NAME}} Ugahbase
+# Domain-specific rules inherit from root .cursor-rules
+
+## Content Focus
+- [Define what this ugahbase covers]
+- [Key principles for this domain]
+
+## Domain-Specific Standards
+- [Add 3-5 specific rules for this domain]
+- [Keep it focused and actionable]
+
+## Cross-References
+- Reference related ugahbases
+- Link to external resources if needed
+
+# Note: All general Ugah AI rules (date insertion, prompt standards, etc.) 
+# are inherited from the root .cursor-rules file 

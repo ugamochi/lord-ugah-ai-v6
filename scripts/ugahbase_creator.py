@@ -6,11 +6,7 @@ Prompts for Ugahbase name, creates the folder, copies template files, and update
 """
 import os
 import shutil
-# Dual import pattern: allows running as a module or as a script
-try:
-    from .utils import get_current_datetime  # module import
-except ImportError:
-    from utils import get_current_datetime   # script import
+from utils import get_current_datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 UGAHBASES_DIR = os.path.join(ROOT, "ugahbases")

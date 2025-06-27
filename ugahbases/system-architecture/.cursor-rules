@@ -1,19 +1,18 @@
 # System Architecture Ugahbase
 # Design patterns, scalability, and architectural decisions
 
-## Technical Focus
-- Document architectural decisions and their reasoning
-- Include scalability considerations for different contexts
-- Reference specific technologies and their trade-offs
-- Connect to real project implementations
+## Content Focus
+- Architectural decisions and their reasoning
+- Design patterns and their appropriate contexts
+- Technology trade-offs and decision frameworks
 
-## Design Philosophy
-- Avoid hardcoded and difficult-to-maintain solutions
-- Emphasize modular design and clear separation of concerns
-- Document both successful and unsuccessful architectural approaches
-- Focus on maintainability and extensibility
+## Domain-Specific Standards
+- Document both successful and failed approaches
+- Include scalability considerations and constraints
+- Avoid hardcoded solutions, prefer modular design
+- Connect architectural decisions to real project outcomes
 
 ## Cross-References
-- Link to react-debugging for component architecture issues
-- Reference client-communication for explaining technical decisions
-- Connect to vibe-coding for creative architectural approaches 
+- Reference webflow-development for web architecture patterns
+- Link to vibe-coding for creative technical approaches
+- Connect to client-communication for explaining technical decisions 

@@ -1,0 +1,85 @@
+# Webflow Development Ugahbase
+# For Webflow projects, custom JavaScript, and modern web development
+
+## Content Focus
+- Webflow-exported files (HTML, CSS, JS) are read-only reference material only
+- Custom code must include fallbacks for older browsers
+- Always implement `prefers-reduced-motion` support for animations
+
+## Accessibility Requirements (2025 Standards)
+- All scroll animations must respect `prefers-reduced-motion: reduce`
+- Focus management is mandatory for custom navigation systems
+- WCAG 2.2 AA compliance minimum for all interactive elements
+- Include keyboard navigation support for all custom interactions
+
+## Smooth Scrolling Standards
+- Default duration: 500ms (range: 400-600ms acceptable)
+- Default easing: ease-out cubic function
+- Default offset: 6rem from viewport top
+- Always include interrupt handling for better UX
+
+## JavaScript Code Quality
+- Remove all debugging console.logs before production
+- Include proper error handling with user-friendly fallbacks
+- Use data attributes instead of href for custom navigation
+- Implement progressive enhancement patterns
+
+## Performance Optimization
+- Optimize for Core Web Vitals: LCP < 2.5s, FID < 100ms, CLS < 0.1
+- Use passive event listeners for scroll and touch events
+- Implement requestAnimationFrame for smooth animations
+- Include performance monitoring for critical user interactions
+
+## Browser Compatibility
+- Support modern browsers with progressive enhancement
+- Include feature detection with @supports queries
+- Provide meaningful fallbacks for unsupported features
+- Test across Safari, Chrome, Firefox, and Edge
+
+## Kortex-Enhanced Prompt Standards (WEBFLOW-SPECIFIC)
+
+### 1. Expert Role Requirements
+- Must specify "senior frontend developer" or equivalent with Webflow expertise
+- Include accessibility specialist credentials when relevant
+- Reference 2025 web standards knowledge
+- Mention experience with custom JavaScript integration
+
+### 2. Webflow Task Specifications
+- Always specify if working within Webflow constraints
+- Define whether custom code goes in site settings or page-specific
+- Include Webflow class naming conventions in requirements
+- Specify responsive behavior across Webflow breakpoints
+
+### 3. Detailed Webflow Specifications (8+ REQUIRED)
+- Specify Webflow-exported files are read-only
+- Include .w-richtext class targeting requirements
+- Define CSS injection vs external stylesheet approach
+- Specify data attribute naming conventions
+- Include Webflow CMS integration requirements (if applicable)
+- Detail responsive design considerations for Webflow grid
+- Include Webflow animation coordination requirements
+- Specify browser testing across Webflow's supported browsers
+
+### 4. Webflow Examples & References
+- Always reference existing Webflow projects in examples
+- Include Webflow Designer structure screenshots when helpful
+- Provide complete custom code examples with Webflow context
+- Reference Webflow University documentation where relevant
+
+### 5. Webflow Response Formatting
+- Structure code for copy-paste into Webflow custom code sections
+- Include comments explaining Webflow-specific considerations
+- Provide separate sections for different code placement locations
+- Include testing instructions specific to Webflow preview mode
+
+### 6. Webflow-Specific Success Criteria
+- Works in Webflow Designer preview mode
+- Maintains functionality after Webflow export
+- Responsive across all Webflow breakpoints
+- Compatible with Webflow's hosting environment
+- Zero conflicts with Webflow's built-in JavaScript
+
+## Cross-Domain Connections
+- Link to system-architecture for performance patterns
+- Reference vibe-coding for creative approaches
+- Connect to react-debugging for component troubleshooting 

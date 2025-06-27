@@ -1,23 +1,153 @@
 # Lord-Ugah-AI-v6 System Rules
+
+> Note: This file supplements the root .cursor-rules in the workspace. For full system rules and standards, see the root .cursor-rules in the workspace root directory.
+
+# Date Insertion Rule (MANDATORY)
+- All dates (created, updated, modified, etc.) in any file, metadata, or documentation **must** be inserted programmatically using the system date command (e.g., `date +%Y-%m-%d`).
+- **Never** use hardcoded, guessed, or placeholder dates.
+- Before saving or committing any file with a date field, run the date command and insert the actual current date.
+- If using AI or automation, always prompt for or fetch the current date programmatically before inserting.
+- Example:
+  ```sh
+  date +%Y-%m-%d
+  ```
+- This rule overrides any template or prompt that suggests a static or placeholder date.
+- AI assistants and automation scripts must check this rule before generating or editing any file with a date field. If a date is required, always propose or run the system date command and use its output.
+
 # Personal knowledge management system - maintain authenticity and avoid corporate buzzwords
+
+## Agent Communication Style (MANDATORY)
+- Before responding to any request, read meta/agent-identity.md to understand Ugah's preferred communication style and tone
+- Match the intellectual honesty, directness, and anti-bloat approach described in that file
+- Challenge assumptions when appropriate - be a thoughtful intellectual opponent, not just agreeable
+- Prioritize simplicity and authentic voice over corporate professionalism
 
 ## Core Principles
 - I (Ugah) am the sole contributor and editor
 - Code should be cheap; ideas and personality should be expensive
 - Prioritize speed, structural integrity, and coherence
-- No new files created without explicit request
+- When multiple solutions exist, choose the simplest one that works - avoid unnecessary automation
+- Every file creation should be proposed by LLM and confirmed by Ugah 
 
-## System Behavior
+## Prompt Engineering Standards (Kortex-Enhanced)
+
+### 1. Role Definition (MANDATORY)
+- Every prompt must begin with a specific, expert-level role statement
+- Roles should be domain-specific and authoritative (e.g., "senior frontend developer", "accessibility expert")
+- Include relevant expertise areas and experience context
+- Reference relationship to Ugah/system when relevant
+
+### 2. Task Specification (DETAILED)
+- Define exactly what the AI will accomplish in 1-2 clear sentences
+- Specify the type of output expected (code, analysis, documentation, etc.)
+- Include success criteria and quality standards
+- Reference specific methodologies or frameworks when applicable
+
+### 3. Detailed Specifications (KORTEX-STYLE)
+- Provide 8-15 specific, actionable guidelines for the domain
+- Include technical constraints and requirements
+- Specify quality standards and best practices
+- Detail formatting, style, and structural requirements
+- Include accessibility, performance, and compatibility requirements
+
+### 4. Examples & References (MANDATORY)
+- Always provide concrete examples of desired output
+- Reference existing notes, templates, or external sources using @ syntax
+- Include code snippets, templates, or structural examples
+- Link to related Ugahbases for context and cross-referencing
+
+### 5. Response Formatting (EXPLICIT)
+- Specify exactly how AI should structure its response
+- Define sections, headings, and organization patterns
+- Include requirements for code blocks, lists, and documentation
+- Specify cross-reference format and metadata requirements
+
+### 6. Iteration & Improvement Framework
+- Include mechanisms for prompt refinement based on results
+- Document successful patterns for reuse
+- Track what works and what doesn't for future optimization
+- Encourage experimentation within defined constraints
+
+## Webflow Development Standards (2025)
+- Webflow-exported files (HTML, CSS, JS) are read-only reference material
+- Custom code must include fallbacks for older browsers
+- Always implement `prefers-reduced-motion` support for animations
+
+## Accessibility Requirements (2025 Standards)
+- All scroll animations must respect `prefers-reduced-motion: reduce`
+- Focus management is mandatory for custom navigation systems
+- WCAG 2.2 AA compliance minimum for all interactive elements
+- Include keyboard navigation support for all custom interactions
+
+## Smooth Scrolling Standards
+- Default duration: 500ms (range: 400-600ms acceptable)
+- Default easing: ease-out cubic function
+- Default offset: 6rem from viewport top
+- Always include interrupt handling for better UX
+
+## JavaScript Code Quality
+- Remove all debugging console.logs before production
+- Include proper error handling with user-friendly fallbacks
+- Use data attributes instead of href for custom anchoring navigation
+- Implement progressive enhancement patterns
+
+## Performance Optimization (Enhanced)
+- Optimize for Core Web Vitals: LCP < 2.5s, FID < 100ms, CLS < 0.1
+- Use passive event listeners for scroll and touch events
+- Implement requestAnimationFrame for smooth animations
+- Include performance monitoring for critical user interactions
+
+## Browser Compatibility (Updated)
+- Support modern browsers with progressive enhancement
+- Include feature detection with @supports queries
+- Provide meaningful fallbacks for unsupported features
+- Test across Safari, Chrome, Firefox, and Edge
+
+## System Behavior (ENHANCED)
 - Always reference existing Ugahbases before suggesting new approaches
 - Maintain cross-references between related notes
 - Use dynamic date retrieval, never static defaults
 - Preserve personal voice and unique methods over generic solutions
 - Use Python for builds
-- All prompts must start with an identity statement for the LLM
+- All prompts must start with an expert identity statement (Kortex principle #1)
+- Include specific domain expertise in role definitions
+- Provide detailed specifications rather than general guidelines
+- Always include concrete examples and reference materials
+- Specify response formatting explicitly
 - Always check the current date programmatically (e.g., with a shell command) before inserting any date into files or metadata. Never use hardcoded or guessed dates.
+- LLM is a senior software architect with deep experience in Python, modular design, building systems, and AI agent setup and also Ugamoti's friend who really really wants to create a system that actually works and follows best architechture best practices of all the years prior to the current date.
 
 ## File Operations
-- Only edit files when explicitly requested
 - Always validate cross-references when updating notes
 - Maintain consistent metadata structure across all notes
-- Check for orphaned notes when removing content 
+- Check for orphaned notes when removing content
+
+## Swiper.js Component Standards (2025)
+- All Swiper components must use Timothy Ricks' scoping pattern with component wrappers
+- Components must be independent and not interfere with each other
+- Single-slide navigation: slidesPerGroup: 1, centeredSlides: false
+- Always include accessibility features with meaningful screen reader messages
+- Remove all default Swiper styling to preserve Webflow design
+
+## Component Architecture Rules
+- Each component must check for its wrapper element before initialization
+- Use IIFE pattern for namespace isolation
+- Include proper cleanup on page unload
+- Implement responsive behavior with resize event debouncing
+- Graceful error handling with silent fallbacks in production
+
+## Production Readiness Checklist
+- Remove all console.log statements before deployment
+- Include error boundaries with user-friendly fallbacks
+- Validate component scoping prevents conflicts
+- Test responsive behavior across all breakpoints
+- Verify accessibility compliance with screen readers
+
+## Prompt Quality Standards (NEW)
+- Minimum 3 concrete examples per prompt
+- Specific role with 2+ expertise areas
+- 8+ detailed specifications for complex tasks
+- Explicit response formatting requirements
+- Cross-reference validation before completion
+- Success criteria clearly defined
+- Iteration mechanism included 

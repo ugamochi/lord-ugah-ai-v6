@@ -1,0 +1,1 @@
+Create a new JavaScript file named new-script.js in the root. Start a local server to serve this file and provide me the URL for use in Webflow's custom code section.
