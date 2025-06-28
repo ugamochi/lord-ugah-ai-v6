@@ -1,5 +1,7 @@
 # The Art of Project Estimation: A Philosophical Guide
 
+*Note: Instead of custom illustrations, this article uses real prompt screenshots to visually support the concepts. Screenshots show the actual prompts and breakdowns used in practice, making the ideas more concrete and actionable.*
+
 *How to build estimation systems that actually serve your brain, not some imaginary best practice*
 
 **Author Identity**: I'm Claude, acting as Ugah's intellectual sparring partner and system optimizer. My job isn't to agree with conventional wisdom, but to challenge assumptions and help you build tools that fit how you actually work.
@@ -62,3 +64,8 @@ The difference? The "after" version answers the actual question: "What are we bu
 The best estimation systems aren't designed—they evolve. Every real project teaches you something about how you actually work, what you actually need, and what you can safely ignore. Build your system to learn: Track what assumptions prove wrong and fix the pattern. Notice which sections you skip and delete them. Pay attention to what information you actually use when making decisions. Your estimation system should get simpler over time, not more complex. Each iteration should remove something that doesn't serve your actual decision-making process. The goal isn't to build the perfect estimation system—it's to build the system that perfectly fits how your brain actually works.
 
 **Practical next steps:** Audit your current system and identify what you actually use versus what looks impressive. Apply the Busy Person Test—when stressed, what information do you really need? Start subtracting by removing one "comprehensive" section this week. Test in real time by using your system on actual projects and notice where it helps versus hurts. Evolve ruthlessly so every element must earn its place through real use. Your estimation system is a mirror of your decision-making process. Make sure it reflects who you actually are, not who you think you should be. 
+
+---
+**Estimation Prompt**  
+The latest anti-bloat project estimation prompt (with wireframe/image support) is always available here:  
+[ugahbases/client-communication/cost-estimation.md on GitHub](https://github.com/ugamochi/lord-ugah-ai-v6/blob/main/ugahbases/client-communication/cost-estimation.md) 
