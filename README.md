@@ -1,27 +1,21 @@
 # Lord-Ugah-AI-v6
 
-**Personal knowledge amplifier** designed around how you actually think and work. Domain-based organization meets AI-friendly prompts.
+Personal knowledge amplifier. Domain-based thinking meets AI-friendly prompts.
 
-📝 **Articles about working on this project**: [pavelugamochi.substack.com](https://pavelugamochi.substack.com/)
+## Quick Start
+1. **Launch AI**: Copy `meta/daily-launch-prompt.md` into fresh conversations
+2. **Browse knowledge**: Check `ugahbases/` for domain-specific content  
+3. **Create content**: Use `templates/` for new notes/prompts
+4. **Add domains**: Run `python scripts/ugahbase_creator.py` or use `scripts/manual-ugahbase-creation.md`
 
-- **Domain-based thinking**: `webflow-development`, `music-production`, `vibe-coding` - each ugahbase matches how your brain works
-- **AI communication style**: Built-in `agent-identity.md` teaches AI to be direct, challenge assumptions, avoid corporate buzzwords
-- **High-quality prompts**: Structured prompts for consistent, professional AI outputs
+## Key Files
+- `meta/agent-identity.md` - AI communication style
+- `meta/simple-workflows.md` - Common task checklists
+- `.cursor-rules` - System behavior rules
 
-### **Daily Launch**
-Copy-paste from `meta/daily-launch-prompt.md` into fresh AI conversations to instantly load your v6 context and communication style.
+## Maintenance  
+- Monthly: Use `meta/bloat-detector-simple.md`
+- Links: Run `python scripts/link_validator.py`
+- Backup: Files auto-backup to `ugah-ai-backups/`
 
-### **Access Knowledge**
-- Browse `ugahbases/` for domain-specific knowledge
-- Each ugahbase has `.cursor-rules` for AI behavior in that context
-- Cross-references connect related knowledge across domains
-
-### **Create Content**
-- Use prompts from any ugahbase for high-quality outputs
-- Reference `templates/` for new prompts or notes
-- Keep things simple and practical
-
-### **Expand System**
-- Run `python3 scripts/ugahbase_creator.py` for new domains
-- Check links with `python3 scripts/link_validator.py`
-- Everything else is manual and intentional
+That's it. Keep it simple.
